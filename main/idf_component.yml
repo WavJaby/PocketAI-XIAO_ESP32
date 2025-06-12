@@ -1,0 +1,12 @@
+## IDF Component Manager Manifest File
+targets:
+  - esp32s3
+dependencies:
+  ## Required IDF version
+  idf:
+    version: '>=4.1.0'
+  lvgl/lvgl: ^9
+  espressif/esp_lcd_touch_cst816s: ^1
+  espressif/esp32-camera: '*'
+  #  espressif/esp_jpeg: ^1.2.1
+  bitbank2/jpegdec: ^1.6.2
